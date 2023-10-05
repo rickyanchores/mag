@@ -1,0 +1,13 @@
+@import "./App.scss";
+@import "./Components/Nav/Nav.scss";
+@import "./Sections/Hero/Hero.scss";
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: whitesmoke;
+  font-family: monospace;
+}

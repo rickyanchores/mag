@@ -1,0 +1,24 @@
+.Nav{
+    //background: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    font-weight: bolder;
+    .navLinks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        //width: 40%;
+        li{
+            margin: 1em;
+        }
+    }
+    .navTools{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        //width: 20%;
+    }
+}
