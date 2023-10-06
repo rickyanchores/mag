@@ -1,5 +1,8 @@
 import React from 'react'
 
+//IMPORTS SYMBOL 
+import heart from "../../assets/heart.svg"
+import shop from "../../assets/shopping-cart.svg"
 const Nav = () => {
   return (
     <div className='Nav'>
@@ -12,8 +15,12 @@ const Nav = () => {
             <div className="search">
                 <input type="text" placeholder='Search' />
             </div>
-            <div className="heart">Heart</div>
-            <div className="shop">Shop</div>
+            <div className="heart">
+              <img src={heart} alt="" />
+            </div>
+            <div className="shop">
+              <img src={shop} alt="" />
+            </div>
         </div>
     </div>
   )

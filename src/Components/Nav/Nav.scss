@@ -19,6 +19,19 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        //background: red;
+        padding: 1em;
         //width: 20%;
+        input{
+            border: none;
+            padding: 1em; 
+            //margin-right: 1em;
+        }
+        .heart,.shop{
+            margin-left: 1em;
+            img{
+                width: 30px;
+            }    
+        }
     }
 }

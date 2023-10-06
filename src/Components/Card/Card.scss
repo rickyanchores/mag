@@ -1,7 +1,6 @@
 .Card{
-    background: blue;
     width: 250px;
-    height: 250px;
+    padding: 1em;
     margin: 1em;
     display: flex;
     flex-direction: column;
@@ -11,5 +10,8 @@
             width: 100%;
             object-fit: cover;
         }
+    }
+    .item-title{
+        text-align: start;
     }
 }

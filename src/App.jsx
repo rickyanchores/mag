@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Nav from './Components/Nav/Nav'
 import Hero from './Sections/Hero/Hero'
 import Shop from './Sections/Shop/Shop'
+import About from './Sections/About/About'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <Hero />
       <Shop />
+      <About />
     </div>
   )
 }

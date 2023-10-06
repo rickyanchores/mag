@@ -1,7 +1,8 @@
 .Shop{
-    
+    padding: 2em;
+    text-align: center;
     .shop-container{
-        background: red;
+        //background: red;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
