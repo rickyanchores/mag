@@ -3,6 +3,7 @@ import Nav from './Components/Nav/Nav'
 import Hero from './Sections/Hero/Hero'
 import Shop from './Sections/Shop/Shop'
 import About from './Sections/About/About'
+import Footer from './Sections/Footer/Footer'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Shop />
       <About />
+      <Footer />
     </div>
   )
 }

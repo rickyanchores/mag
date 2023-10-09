@@ -7,9 +7,9 @@ const Nav = () => {
   return (
     <div className='Nav'>
         <div className="navLinks">
-            <li>Men</li>
-            <li>Women</li>
-            <li>Accessories</li>
+            <li>Artist</li>
+            <li>Music</li>
+            <li>Merch</li>
         </div>
         <div className="navTools">
             <div className="search">
