@@ -17,6 +17,7 @@ function App() {
       <Shop />
       <About />
       <Footer />
+      <h5>Dev by Ricky A</h5>
     </div>
   )
 }

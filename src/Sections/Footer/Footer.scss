@@ -2,4 +2,12 @@
     background: black;
     color: whitesmoke;
     padding: 2em;
+    .links{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        li{
+            margin: 1em;
+        }
+    }
 }

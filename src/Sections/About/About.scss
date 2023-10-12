@@ -1,4 +1,14 @@
 .About{
     background: red;
-    padding: 3em;   
+    padding: 3em;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .left{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    } 
 }
