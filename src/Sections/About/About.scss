@@ -2,11 +2,15 @@
     background: red;
     margin: 1em;
     border-radius: 1em;
-    padding: 3em;  
+    //padding: 3em;  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    h2{
+        font-size: 80px;
+        font-weight: bolder;
+    }
     .left{
         width: 50%;
         img{
